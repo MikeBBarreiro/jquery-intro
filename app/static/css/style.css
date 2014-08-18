@@ -1,0 +1,25 @@
+.happy {
+  color: pink;
+  background-color: yellow;
+  font-size: 50px;
+}
+
+.sad {
+  color: blue;
+  background-color: grey;
+  font-size: 9px;
+}
+
+.box {
+  display: inline-block;
+  background-color: #59B2FC;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.oddboxes {
+  border-radius: 100px;
+  border: 1px solid black;
+}

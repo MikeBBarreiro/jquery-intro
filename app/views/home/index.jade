@@ -1,4 +1,28 @@
 extends ../shared/template
 block content
-  h2 Home Page!
 
+  button#red RED
+  button#white WHITE
+  button#color COLOR
+  input#color-value(type='color')
+  button#fadeIn Fade in
+  button#fadeOu Fade out
+  input#fade-number(type='number')
+
+  h2 Home Page!
+  #a A
+  #b B
+  #c C
+  ul
+    li D
+    li E
+    li F
+  .g G
+  .h H
+  .i I
+
+  footer Ill Fade IN or OUT!
+
+block scripts
+  script(src='/js/user/main.js')
+  script(src='/js/user/alpha.js')
